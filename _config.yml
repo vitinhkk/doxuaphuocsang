@@ -1,9 +1,20 @@
-# Jekyll settings
-permalink: pretty
-markdown: rdiscount
-highlighter: pygments
-paginate: 12
 # Blog settings
 theme: classic
-name: Do Xua Phuoc Sang
+name: Đồ Xưa Phước Sang
 url: http://vitinhkk.github.io/doxuaphuocsang/
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Plugins
+whitelist: []
+gems:      []
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+paginate: 12
