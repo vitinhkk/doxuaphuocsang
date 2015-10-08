@@ -1,0 +1,9 @@
+# Jekyll settings
+permalink: pretty
+markdown: rdiscount
+highlighter: pygments
+paginate: 12
+# Blog settings
+theme: classic
+name: Do Xua Phuoc Sang
+url: http://vitinhkk.github.io/doxuaphuocsang/
