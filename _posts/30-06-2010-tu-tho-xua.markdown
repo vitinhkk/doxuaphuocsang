@@ -1,0 +1,9 @@
+﻿---
+layout: post
+title: Tủ thờ xưa
+thumb: tu-tho-go.jpg
+price: 0
+tags: ["Đồ gỗ"]
+---
+Mô tả chi tiết sản phẩm. 
+vui lòng liên hệ 0903855187 (Mr.Thanh)

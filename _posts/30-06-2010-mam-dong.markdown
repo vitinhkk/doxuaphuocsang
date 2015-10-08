@@ -1,0 +1,9 @@
+﻿---
+layout: post
+title: Mâm đồng
+thumb: mam-dong.jpg
+price: 0
+tags: ["Đồ Đồng"]
+---
+Mô tả chi tiết sản phẩm. 
+vui lòng liên hệ 0903855187 (Mr.Thanh)
