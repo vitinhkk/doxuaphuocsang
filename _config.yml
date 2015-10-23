@@ -1,7 +1,7 @@
 # Blog settings
 theme: classic
 name: Đồ Xưa Phước Sang
-url: http://vitinhkk.github.io/doxuaphuocsang/
+baseurl: /doxuaphuocsang
 # Handling Reading
 safe:         false
 include:      [".htaccess"]
