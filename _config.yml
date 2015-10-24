@@ -1,21 +1,10 @@
-# Blog settings
-theme: classic
-name: Đồ Xưa Phước Sang
-baseurl: /doxuaphuocsang
-# Handling Reading
-safe: false
-include: [".htaccess"]
-exclude: []
-keep_files: [".git", ".svn"]
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-# Plugins
-whitelist: []
-gems: []
-# Conversion
-permalink: /:title/
+# Site settings
+baseurl: "/doxuaphuocsang"
+name: "Đồ Xưa Phước Sang"
+theme: "classic"
+
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
+permalink: /:categories/:title-0903855187.html
 excerpt_separator: "\n\n"
 paginate: 12

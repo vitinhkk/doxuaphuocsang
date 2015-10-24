@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{site.description}}">
-  <meta name="author" content="{{site.author}}">
-  <link rel="icon" href="/favicon.ico">
-  <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-	<style>
-	.thumbnail:hover{background-color:#ddd;}
-	</style>
-	<title>{{page.title}}</title>
-	{% if page.cssfile %}<link href="{{page.cssfile}}" rel="stylesheet">{% endif %}
-	{% if page.jsfile %}<script src="{{page.jsfile}}"></script>{% endif %}
- </head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="vitinhkk, binhbat">
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/theme/{{site.theme}}/favicon.ico">
+<style>
 
+</style>
+<title>{{page.title}}</title>
+</head>
 <body>
-	<header>
-		<nav class="navbar navbar-default">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		  <span class="sr-only">Toggle navigation</span>
-          <i class="glyphicon glyphicon-arrow-down"></i>
-        </button>
-        <a class="navbar-brand" href="{{site.url}}">{{site.name}}</a>
+		<header class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{site.baseurl}}">{{site.name}}</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+					{% for cat in site.categories %}
+						<li><a href="{{site.baseurl}}/{{cat[0]}}">{{cat[0]}}</a></li>
+					{% endfor %}
+          </ul>
+        </div><!--/.nav-collapse |uri_escape-->
       </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-		  <li><a href="{{site.baseurl}}/archive.html">Archives</a></li>
-		</ul>
-      </div>
-		</nav>
-	</header>
+		</header>
