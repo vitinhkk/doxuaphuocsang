@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Bộ ván ngựa
+title: "Bộ ván ngựa"
 thumb: bo-van-ngua.jpg
 price: 0
 tags: [hot,"van ngua"]
