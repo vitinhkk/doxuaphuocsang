@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Bộ ván ngựa"
 thumb: bo-van-ngua.jpg

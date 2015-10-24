@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Chậu kiểng"
 thumb: chau-kieng.jpg
